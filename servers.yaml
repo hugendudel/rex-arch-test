@@ -1,9 +1,9 @@
 ---
 - name: arch-01
-  box: http://boxes.stinga.org/arch_2015.10.1_virtualbox_puppet.box
+  box: http://boxes.stinga.org/arch-2015.10.1-1-virtualbox-puppet.box
   ram: 512
   ip: 192.168.56.21
 - name: arch-02
-  box: http://boxes.stinga.org/arch_2015.10.1_virtualbox_puppet.box
+  box: http://boxes.stinga.org/arch-2015.10.1-1-virtualbox-puppet.box
   ram: 512
   ip: 192.168.56.22
