@@ -1,7 +1,7 @@
 # Maintainer: Harm Müller <harm[DOT]mueller[AT]gmail[DOT]com>
 pkgname='perl-rex'
 pkgver='1.3.3'
-pkgrel='1'
+pkgrel='3'
 pkgdesc="(R)?ex Deployment & Configuration Management"
 arch=('any')
 license=('Apache')
