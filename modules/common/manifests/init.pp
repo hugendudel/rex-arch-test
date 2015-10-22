@@ -8,7 +8,7 @@ class common {
         path    =>  "/usr/bin"
     }
     ->
-    package { ['vim', 'zsh', 'htop', 'wget', 'perl-hash-merge', 'perl-net-ssh2', 'perl-libwww', 'perl-io-string', 'perl-json-xs', 'perl-list-allutils', 'perl-sort-naturally', 'perl-term-readkey', 'perl-text-glob', 'perl-xml-simple', 'perl-yaml', 'perl-net-openssh', 'perl-test-useallmodules', 'perl-io-tty', 'perl-net-sftp-foreign', 'perl-test-pod', 'perl-string-escape' 'perl-test-deep']:
+    package { ['vim', 'zsh', 'htop', 'wget', 'perl-hash-merge', 'perl-net-ssh2', 'perl-libwww', 'perl-io-string', 'perl-json-xs', 'perl-list-allutils', 'perl-sort-naturally', 'perl-term-readkey', 'perl-text-glob', 'perl-xml-simple', 'perl-yaml', 'perl-net-openssh', 'perl-test-useallmodules', 'perl-io-tty', 'perl-net-sftp-foreign', 'perl-test-pod', 'perl-string-escape', 'perl-test-deep']:
         ensure  =>  installed,
     }
 
