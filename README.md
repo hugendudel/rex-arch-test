@@ -22,5 +22,5 @@ Assuming that you already have vagrant and virtualbox
     $ cd rex-arch-test/
     $ vagrant up
     $ ssh vagrant@$IP
-    $ cd /cagrant
+    $ cd /vagrant
     $ rex [test_rex|.*]
