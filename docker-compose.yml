@@ -1,0 +1,19 @@
+version: '2'
+services:
+  master:
+    image: base/archlinux:latest
+    ports:
+      - "22:22"
+    links:
+      - slave:zabbix.db
+    environment:
+      REX_USER: zabbix.db
+      REX_PASSWORD: zabbix
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+      - slave
+  slave:
+    image: base/archlinux:latest
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
